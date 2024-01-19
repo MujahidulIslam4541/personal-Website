@@ -1,0 +1,612 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Header start*/
+header{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    background-color: #fff;
+    top: 0;
+    z-index: 1;
+
+}
+header div{
+    float: left;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    margin-left: 160px;
+    padding: 15px;
+}
+header .nav{
+    position: absolute;
+    top:10px;
+    right: 0px;
+    margin-right: 100px;
+    
+}
+header .nav ul{
+    list-style: none;
+}
+header .nav ul li{
+    float: left;
+    padding-right: 40px;
+    padding-top: 10px;
+}
+header .nav ul li a{
+    text-decoration: none;
+    color: dimgrey;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+header .nav ul li a:hover{
+    color: #7f97ff;
+}
+
+.checkbtn{
+    display: none;
+    font-size: 30px;
+    color: rgba(0,0,0,0.9);
+    float: right;
+    line-height: 80px;
+    margin-right: -170px;
+}
+#check{
+    display: none;
+}
+/*Header end*/
+
+
+/*SECTION ONE START*/
+.section1{
+    background-color: #F9F9FF;
+    width: 100%;
+    height: 665PX;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ .half1,.half2{
+    width: 50%;
+}
+.half1{
+    margin-left: 180px;
+    margin-bottom: 80px;
+}
+.half2{
+    padding-right: 160px;
+    margin-top: 50px;
+}
+.half2 img{
+    max-width: 100%;
+    height: auto;
+}
+.half1 h1{
+    font-size: 50px;
+}
+.half1 p{
+    color: gray;
+    text-align: left;
+}
+.half1 input{
+    padding: 8px 20px;
+    background-color: #8393ff;
+    outline: none;
+    border: 1px solid #8393ff;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 10% 10% 10% 10% / 50% 50% 50% 50%;
+    cursor: pointer;
+}
+.half1 input:hover{
+    box-shadow: 5px 10px 30px rgba(130, 147,255, 0.5);
+    transition: all ease-in 0.5s;
+    outline: none;
+    cursor: pointer;
+}
+/*section one end*/
+
+/*section two start*/
+.section2{
+    background-color: white;
+    width: 100%;
+    height: 500PX;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section2 div{
+    width: 40%;
+    margin: 0 auto;
+}
+.section2 img{
+    width: 100%;
+    height: auto;
+}
+.section2 .img2{
+        padding-left: 110px;
+}
+.text2 h3{
+    font-weight: normal;
+    color:rgba(0,0,0,0.7);
+    font-size: 15px;
+}
+.text2 h1{
+    font-size: 40px;
+}
+.text2 p{
+    color: rgba(0,0,0,0.6);
+    font-size: 16px;
+    width: 80%;
+    text-align: left;
+}
+.text2 input{
+    padding: 8px 20px;
+    background-color: #8393ff;
+    outline: none;
+    border: 1px solid #8393ff;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 10% 10% 10% 10% / 50% 50% 50% 50%;
+}
+.text2 input:hover{
+    box-shadow: 5px 10px 30px rgba(130, 147,255, 0.5);
+    transition: all ease-in 0.5s;
+    outline: none;
+    cursor: pointer;
+}
+/*section two end*/
+
+/*section three start*/
+.section3{
+    width: 100%;
+    height: 650px;
+    margin: 0 auto;
+    text-align: center;
+}
+.section3 .fristtext h1{
+    font-size: 40px;
+}
+.section3 .fristtext p{
+    width: 670px;
+    color: rgba(0,0,0,0.6);
+    margin: 0 auto;
+}
+.services{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.ser1, .ser2{
+    width: 100%;
+    overflow: hidden;
+}
+.ser2{
+    padding-top: 30px;
+}
+.ser1 div, .ser2 div{
+    width: 32%;
+    float: left;
+    padding: 15px;
+    margin: 0 auto;
+   
+}
+.services i{
+    font-size: 40px;
+    color: rgba(0,0,0,0.7);
+}
+.services h1{
+    color: rgba(0,0,0,0.8);
+}
+.services p{
+    color: rgba(0,0,0,0.6);
+}
+.ser1 div:hover{
+    background-color: #8393ff;
+    border-radius: 40px;
+    transition: all ease-in-out 0.25s;
+}
+.ser1 div:hover i{
+    color: #fff;
+}
+.ser1 div:hover h1{
+    color: #fff;
+}
+.ser1 div:hover p{
+    color: #fff;
+}
+
+.ser2 div:hover{
+    background-color: #8393ff;
+    border-radius: 40px;
+    transition: all ease-in-out 0.25s;
+}
+.ser2 div:hover i{
+    color: #fff;
+}
+.ser2 div:hover h1{
+    color: #fff;
+}
+.ser2 div:hover p{
+    color: #fff;
+}
+/*section three end*/
+
+/*section four start*/
+.section4{
+    width: 100%;
+    height: 200px;
+    background-color: #8393ff ;
+    color: #fff;
+}
+.section4 div{
+    float: left;
+    width: 25%;
+    position: relative;
+    margin: 0 auto;
+    top: 80px;
+    left: 35px;
+}
+.section4 h1,p{
+    text-align: center;
+}
+.section4 h1{
+    font-size: 35px;
+}
+/*section four end*/
+
+/*section five start*/
+.section5{
+    width: 100%;
+    box-sizing: border-box;
+    height: auto;
+}
+.section5 .text3{
+    text-align: center;
+    padding: 100px 0px;
+}
+.section5 .text3 h1{
+    font-size: 40px;
+    color: rgba(0,0,0,0.9);
+    padding-bottom: 10px;
+}
+.section5 .text3 p{
+    color: rgba(0,0,0,0.7);
+}
+.section5 .imgg1{
+    width: 80%;
+    height: auto;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.section5 .imgg1 div{
+    width: 340px;
+    height: 339px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.section5 .imgg1 h1{
+    font-size: 20px;
+    color: rgba(0,0,0,0.9);
+    padding-top: 10px;
+}
+.section5 .imgg1 p{
+    color: rgba(0,0,0,0.7);
+    line-height: 0;
+}
+.section5 figure{
+    background:linear-gradient(30deg , #8490ff 40% , #62bdfc 100%);
+    width: 100%;
+    height: 86%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 3%;
+}
+.section5 figure:hover img{
+    opacity:0.3;
+    transition: all ease-in-out 0.25s;
+    
+}
+/*section five end*/
+
+/*section six start*/
+.section6{
+    width: 100%;
+    height: 700px;
+    padding-top: 70px;
+}
+.section6 .text4{
+    text-align: center;
+    padding: 2% 0;
+}
+.section6 .text4 h1{
+    font-size: 40px;
+    line-height: 0;
+    padding-top: 15px;
+}
+.section6 .text4 p{
+    color: rgba(0,0,0,0.7);
+    padding-top: 8px;
+}
+.section6 .card{
+    width:80% ;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+    justify-content:space-around;
+    padding-top: 20px;
+    
+}
+.section6 .card1{
+    width: 250px;
+    height: 500px;
+    background-color: rgb(249,249,255);
+    text-align: center;
+    border: 1px solid rgba(0,0,0,0.1);
+    padding-top: 20px;
+}
+.section6 .card1 h1{
+    font-size: 50px;
+    padding-top: 8px;
+}
+.section6 .card1 .price{
+    font-size: 40px;
+}
+.section6 .card1 input{
+    outline: none;
+    padding: 6px 50px;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+    border: 1px solid white;
+    background-color: #8293ff;
+    color: #fff;
+    border-radius: 10% 10% 10% 10% /50% 50% 50% 50%;
+}
+.section6 .card1:hover{
+    background-color:#8293ff ;
+    color: white;
+    border: 1px solid rgba(130,174,255,0.5);
+    transition: all ease-in 0.25s;
+    transform: calc(1.05);
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.5);
+}
+.section6 .card1:hover input{
+    background-color: white;
+    color: rgba(0,0,0,0.9);
+}
+/*section six end*/
+
+/*section seven start*/
+footer{
+    background-color: rgb(4,9,30);
+    color: #fff;
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    margin-top: 150px;
+}
+footer .foot{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin:0 auto;
+    margin-top: 90px;
+
+}
+footer .foot .foot1 p{
+    color: rgba(255,255,255,0.5);
+    text-align: left;
+}
+footer .foot .foot1 input{
+    font-size: 15px;
+    outline: none;
+    border: none;
+    padding: 8px 120px 8px 8px;
+}
+footer .foot .foot1  button{
+    font-size: 18px;
+    color: white;
+    background-color: #8293ff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px 12px;
+}
+footer .foot .foot2 p{
+    color: rgba(255,255,255,0.5);
+}
+footer .foot .foot2 i{
+    font-size: 15px;
+    cursor: pointer;
+    padding: 2px 5px;
+}
+footer .foot .foot2 i:hover {
+    color: #8293ff;
+}
+/*section seven end*/
+
+
+
+@media(max-width:768px){
+    header{
+        width: 100%;
+        height: auto;
+    }
+    header .logo{
+        margin-left: 30px;
+        padding: 20px;
+    }
+    .checkbtn{
+        display: block;
+    }
+    header .nav ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #F9F9FF;
+        top: 54px;
+        left: -200%;
+        transition: all 0.1s;
+    }
+    header .nav ul li {
+        line-height: 30px;
+        clear: both;
+        margin-top: 15px;
+    }
+    #check:checked ~ ul{
+        left: 30px;
+    }
+    header .nav ul li a{
+        font-size: 18px;
+        text-align: center;
+    }
+}
+@media(max-width:768px){
+    .section1{
+        width: 100%;
+        display: block;
+        height: auto;
+        padding-bottom: 100px;
+        
+    }
+     .half1{
+        margin-top: 120px;
+        padding: 0px;
+     }
+     .half1 h3{
+        font-size: 15px;
+     }
+     .half1 h1{
+        font-size: 30px;
+     }
+     .section1 .half2 img{
+        margin-left: 180px;
+        margin-bottom: 50px;
+        max-width: 280px;
+        height: auto;
+     }
+     .section2{
+        display: block;
+        width: 100%;
+        height: 100vh;
+        top: 50px;
+        position: relative;
+     }
+     .section2 .img2 img{
+        position: relative;
+        right: 100px;
+     }
+     .section2 div{
+        width: 100%;
+     }
+     .text2{
+        position: relative;
+        left: 15px;
+        text-align: center !important;
+     }
+     .text2 h3{
+        font-size: 12px;
+        color: rgba(0,0,0,0.8);
+     }
+     .text2 h1{
+        font-size: 30px;
+        color: rgba(0,0,0,0.9);
+     }
+     .text2 p{
+        font-size:12px ;
+        color:rgba(0,0,0,0.9) ;
+        margin-left: 50px !important;
+     }
+     .section3{
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: 100px;
+     }
+     .section3.fristtext >h1{
+        font-size: 30px;
+        color: rgba(0,0,0,0.9);
+     }
+     .section3 .fristtext p{
+        width: 80%;
+     }
+      .ser1 div ,.ser2 div{
+        clear: left;
+        position: relative;
+        width: 100%;
+        height: auto;
+     }
+     .section4{
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        top: 200px;
+     }
+     .section4 div{
+        clear: left;
+        padding: 10px;
+        margin-left: 120px;
+     }
+     .section5{
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: 200px;
+     }
+     .section5 .imgg1{
+        display: block;
+        width: 100%;
+        height: 86%;
+        position: relative;
+        left: 90px;
+     }
+     .section6{
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        top: 200px;
+     }
+     .section6 .text4 h1{
+        font-size: 30px;
+    }
+    .section6 .text4 p{
+        width: 88%;
+        margin: auto;
+    }
+    .section6 .card{
+        display: block;
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        left: 110px;
+    }
+    .section6 .card .card1{
+        margin-top: 40px;
+    }
+    footer{
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        top: 1300px;
+    }
+    footer .foot{
+        display: block;
+        position: relative;
+        top: 50px;
+    }
+    
+}     
